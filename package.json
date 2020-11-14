@@ -4,7 +4,9 @@
   "description": "A single page app which shows menu, about and homepage of a restaurant. The app is build using javascript.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "development": "webpack --watch"
   },
   "repository": {
     "type": "git",
