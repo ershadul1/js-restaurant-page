@@ -1,6 +1,6 @@
-import navbar from './navbar'
-import homepage from './home'
-import footer from './footer'
+import navbar from './navbar';
+import homepage from './home';
+import footer from './footer';
 
 function pageLoader() {
   const container = document.getElementById('content');

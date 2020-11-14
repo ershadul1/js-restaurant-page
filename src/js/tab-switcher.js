@@ -1,6 +1,6 @@
-import homePage from './home'
-import menuPage from './menu'
-import aboutPage from './about'
+import homePage from './home';
+import menuPage from './menu';
+import aboutPage from './about';
 
 function removeCurrentTab() {
   const nodesToRemove = document.querySelector('.inner-container').childNodes;
@@ -11,7 +11,7 @@ function tabSwitcher(pageName) {
   removeCurrentTab();
   const innerContainer = document.querySelector('.inner-container');
 
-  switch(pageName) {
+  switch (pageName) {
     case 'Home':
       innerContainer.appendChild(homePage);
       break;
@@ -21,6 +21,8 @@ function tabSwitcher(pageName) {
     case 'About':
       innerContainer.appendChild(aboutPage);
       break;
+    default:
+      innerContainer.appendChild(homePage);
   }
 }
 
