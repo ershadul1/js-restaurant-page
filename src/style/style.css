@@ -116,6 +116,14 @@
   margin: auto;
 }
 
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
 .d-flex {
   display: flex;
 }
@@ -202,5 +210,20 @@
 .home-container {
   height: 85vh;
   padding: 1em;
-  background: url('../assets/burger.svg') 50% 25% / 20% 20% no-repeat, var(--color-3);
+  background: url('../assets/burger.svg') 50% 22% / 20% 20% no-repeat, var(--color-3);
+}
+
+.food-image {
+  width: 300px;
+  height: 300px;
+}
+
+.h-85-vh {
+  height: 85vh;
+}
+
+@media screen and (min-width: 768px) {
+  .width-limit {
+    width: 70%;
+  }
 }
