@@ -3,26 +3,25 @@ import menuPage from './menu';
 import aboutPage from './about';
 
 const removeCurrentTab = () => {
-  const nodesToRemove = document.querySelector('.inner-container').childNodes;
+  const nodesToRemove = document.querySelector('#inner-container').childNodes;
   nodesToRemove.forEach(node => node.remove());
 };
 
 const tabSwitcher = (pageName) => {
   removeCurrentTab();
-  const innerContainer = document.querySelector('.inner-container');
-
+  
   switch (pageName) {
     case 'Home':
-      innerContainer.appendChild(homePage);
+      homePage();
       break;
     case 'Menu':
-      innerContainer.appendChild(menuPage);
+      menuPage();
       break;
     case 'About':
-      innerContainer.appendChild(aboutPage);
+      aboutPage();
       break;
     default:
-      innerContainer.appendChild(homePage);
+      homePage();
   }
 };
 
