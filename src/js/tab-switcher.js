@@ -9,7 +9,7 @@ const removeCurrentTab = () => {
 
 const tabSwitcher = (pageName) => {
   removeCurrentTab();
-  
+
   switch (pageName) {
     case 'Home':
       homePage();

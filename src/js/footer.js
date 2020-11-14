@@ -5,5 +5,5 @@ const footerGenerator = () => {
 
   const container = document.getElementById('content');
   container.appendChild(footer);
-}
+};
 export default footerGenerator;

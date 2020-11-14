@@ -15,8 +15,8 @@ const aboutGenerator = () => {
   phone.textContent = 'Phone: +123-856-479';
 
   menuContainer.append(heading, subHeading, address, phone);
-  
+
   const innerContainer = document.getElementById('inner-container');
   innerContainer.appendChild(menuContainer);
-}
+};
 export default aboutGenerator;

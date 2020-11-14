@@ -9,8 +9,7 @@ const homeGenerator = () => {
   subHeading.textContent = 'warning! our food may stop your regular expression :)';
   homeContainer.append(heading, subHeading);
 
-  const container = document.getElementById('content');
   const innerContainer = document.getElementById('inner-container');
   innerContainer.appendChild(homeContainer);
-}
+};
 export default homeGenerator;

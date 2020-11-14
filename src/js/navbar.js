@@ -15,5 +15,5 @@ const navGenerator = () => {
 
   const container = document.getElementById('content');
   container.appendChild(navbar);
-}
+};
 export default navGenerator;

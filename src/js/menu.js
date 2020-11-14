@@ -24,5 +24,5 @@ const menuGenerator = () => {
   menuContainer.appendChild(menuInnerContainer);
   const innerContainer = document.getElementById('inner-container');
   innerContainer.appendChild(menuContainer);
-}
+};
 export default menuGenerator;
