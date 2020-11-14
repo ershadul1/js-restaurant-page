@@ -28,6 +28,7 @@ A single page app which shows menu, about and homepage of a restaurant. The app 
 ### Steps to follow
 1. Clone the repository to your local machine using `git clone https://github.com/ershadul1/js-restaurant-page.git`
 1. On your local machine, navigate to folder using `cd js-restaurant-page` in your terminal.
+1. Run `npm install` for installing all the dependencies.
 1. Navigate to dist folder.
 1. Open the `index.html` with your preferred browser.
 
