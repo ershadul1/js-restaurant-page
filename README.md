@@ -15,6 +15,10 @@ A single page app which shows menu, about and homepage of a restaurant. The app 
 - HTML/CSS
 - Javascript
 
+## Live Demo
+
+- [Regex Cafe](https://rawcdn.githack.com/ershadul1/js-restaurant-page/cb7f828083aa68300fd43bed49bce578cc87d162/dist/index.html)
+
 ## How to run this project on your local machine
 
 ### Prerequisites
